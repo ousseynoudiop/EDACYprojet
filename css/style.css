@@ -1,0 +1,119 @@
+body{
+	background-color:green;
+	margin:0px;
+	padding:0px;
+}
+h1{
+	color:#971C4B;
+	font-size:20px;
+	text-align:center;
+}
+
+.licence{
+	color:white;
+	background-color:green;
+}
+
+#conterner{
+	margin:auto;
+	width:1200px;
+	min-height:300px;
+	background-color:#F5D0A9;
+}
+#banniere{
+	width:1200px;
+	height:150px;
+	background-color:blue;
+	color:white;
+}
+#sub_banniere{
+	width:1200px;
+	background-color:#000000;
+	height:5px;
+}
+#navigation{
+	width:1200px;
+	height:60px;
+	text-align:center;
+}
+#contenue{
+	width:1100px;
+	min-height:400px;
+	background-color:white;
+	font-size:14px;
+	margin-left:10px;
+	color:#000000;
+}
+
+#sub_footer{
+	width:1200px;
+	background-color:#000000;
+	height:10px;
+}
+#pied_de_page{
+	width:1200px;
+	height: 50px;
+	color:white;
+	background-color:green;
+}
+#sup_footer{
+	width:1100px;
+	background-color:#000000;
+	height:5px;
+}
+ul {
+ list-style-type:none;
+ position:relative;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ height:25px;
+ background-color:black;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ font-weight:bold;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+.titre_text{
+	color:#971C4B;
+	font-size:35px;
+	font-family:courrier;
+}
+.th_tab{
+	color:white;
+	text-align:center;
+	background-color:#000000;
+	height:30px;
+}
+a_lien{
+	color: white; 
+	text-decoration: underline;
+}
+a_lien:hover{
+	color: #999999; 
+	text-decoration: none;
+}
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+ .error{
+	 background-color:red;
+	 color:white;
+	 text-align:center;
+	 font-size:15px;
+	 border-color:black;
+ }
